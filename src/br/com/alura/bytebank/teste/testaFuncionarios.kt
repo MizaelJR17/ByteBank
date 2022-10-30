@@ -1,4 +1,4 @@
-import modelo.*
+import br.com.alura.bytebank.modelo.*
 
 fun testaFuncionarios() {
 
@@ -17,7 +17,7 @@ fun testaFuncionarios() {
     println("Bonificacao ${mizael.bonificacao}")
 
     val luciana = Gerente(
-        " modelo.Gerente luciana ",
+        " br.com.alura.bytebank.modelo.Gerente luciana ",
         "222.222.222-22",
         8800.00,
         2430,

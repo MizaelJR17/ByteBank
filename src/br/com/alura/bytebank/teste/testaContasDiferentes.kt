@@ -1,5 +1,5 @@
-import modelo.ContaCorrente
-import modelo.ContaPoupanca
+import br.com.alura.bytebank.modelo.ContaCorrente
+import br.com.alura.bytebank.modelo.ContaPoupanca
 
 fun testasContasDiferentes() {
 
@@ -69,7 +69,7 @@ fun testasContasDiferentes() {
 
     contaCorrente.transfere(500.00,contaPoupanca)
 
-    println("---------------------------- Saldo da modelo.Conta Corrente apos transferencia ${contaCorrente.saldo} -----------------")
+    println("---------------------------- Saldo da br.com.alura.bytebank.modelo.Conta Corrente apos transferencia ${contaCorrente.saldo} -----------------")
 
 
     println("")
@@ -78,7 +78,7 @@ fun testasContasDiferentes() {
 
     contaPoupanca.transfere(500.00,contaCorrente)
 
-    println("---------------------------- Saldo da modelo.Conta Corrente apos transferencia ${contaPoupanca.saldo} -----------------")
+    println("---------------------------- Saldo da br.com.alura.bytebank.modelo.Conta Corrente apos transferencia ${contaPoupanca.saldo} -----------------")
 
 
 

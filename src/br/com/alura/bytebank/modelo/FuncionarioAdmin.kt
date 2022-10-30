@@ -1,4 +1,4 @@
-package modelo
+package br.com.alura.bytebank.modelo
 
 abstract  class FuncionarioAdmin(
          nome: String,
@@ -6,7 +6,7 @@ abstract  class FuncionarioAdmin(
          salario: Double ,
        protected val senha : Int,
         val plr : Double
-        //val tipo: Int // 0 modelo.Funcionario , 1 gerente , 2 modelo.Diretor
+        //val tipo: Int // 0 br.com.alura.bytebank.modelo.Funcionario , 1 gerente , 2 br.com.alura.bytebank.modelo.Diretor
     ): Funcionario(
         nome,
         cpf,
