@@ -1,3 +1,5 @@
+package modelo
+
 interface FunContaSalario {
 
     var saldo : Double

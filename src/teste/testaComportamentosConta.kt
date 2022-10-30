@@ -1,3 +1,6 @@
+import modelo.ContaCorrente
+import modelo.ContaPoupanca
+
 fun testaComportamentosConta() {
     println("Bem vindo ao Bytebank")
 

@@ -1,10 +1,12 @@
-   open class Auxiliar (
+package modelo
+
+open class Auxiliar (
          nome: String,
          cpf: String,
          salario: Double,
          senha: Double
-        //val tipo: Int // 0 Funcionario , 1 gerente , 2 Diretor
-    )  : Funcionario (
+        //val tipo: Int // 0 modelo.Funcionario , 1 gerente , 2 modelo.Diretor
+    )  : Funcionario(
         nome= nome,
         cpf = cpf,
         salario= salario

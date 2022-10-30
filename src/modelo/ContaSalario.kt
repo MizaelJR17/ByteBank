@@ -1,4 +1,6 @@
- class ContaSalario(override var saldo : Double) : FunContaSalario {
+package modelo
+
+class ContaSalario(override var saldo : Double) : FunContaSalario {
 
 
    override fun deposita(valor : Double) {

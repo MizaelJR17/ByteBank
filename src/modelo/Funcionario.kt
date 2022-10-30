@@ -1,9 +1,11 @@
-    abstract  class Funcionario(
+package modelo
+
+abstract  class Funcionario(
         val nome: String,
         val cpf: String,
         val salario: Double
 
-        //val tipo: Int // 0 Funcionario , 1 gerente , 2 Diretor
+        //val tipo: Int // 0 modelo.Funcionario , 1 gerente , 2 modelo.Diretor
     ) {
 
 

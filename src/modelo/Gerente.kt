@@ -1,12 +1,16 @@
-    class Gerente (
+package modelo
+
+import modelo.FuncionarioAdmin
+
+class Gerente (
          nome: String,
          cpf: String,
          salario: Double,
         senha: Int,
         plr: Double
 
-        //val tipo: Int // 0 Funcionario , 1 gerente , 2 Diretor
-    )  : FuncionarioAdmin (
+        //val tipo: Int // 0 modelo.Funcionario , 1 gerente , 2 modelo.Diretor
+    )  : FuncionarioAdmin(
         nome= nome,
         cpf = cpf,
         salario= salario,

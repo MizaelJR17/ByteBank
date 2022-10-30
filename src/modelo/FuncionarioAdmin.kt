@@ -1,11 +1,13 @@
-    abstract  class FuncionarioAdmin(
+package modelo
+
+abstract  class FuncionarioAdmin(
          nome: String,
          cpf: String,
          salario: Double ,
        protected val senha : Int,
         val plr : Double
-        //val tipo: Int // 0 Funcionario , 1 gerente , 2 Diretor
-    ):Funcionario(
+        //val tipo: Int // 0 modelo.Funcionario , 1 gerente , 2 modelo.Diretor
+    ): Funcionario(
         nome,
         cpf,
         salario

@@ -1,3 +1,5 @@
+import modelo.*
+
 fun testaFuncionarios() {
 
     val mizael = Analista(
@@ -15,7 +17,7 @@ fun testaFuncionarios() {
     println("Bonificacao ${mizael.bonificacao}")
 
     val luciana = Gerente(
-        " Gerente luciana ",
+        " modelo.Gerente luciana ",
         "222.222.222-22",
         8800.00,
         2430,
